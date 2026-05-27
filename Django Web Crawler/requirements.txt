@@ -1,21 +1,27 @@
-asgiref 
+# Core
+Django==5.2.8
+
+
+# Database (اگر از PostgreSQL استفاده می‌کنید)
+psycopg2
+
+# HTTP & Security
+requests>=2.32.0
+urllib3>=2.0.0
+certifi>=2025.11.12
+chardet>=5.2.0
+brotli  # جایگزین brotlipy
+cryptography>=42.0.0
+pyOpenSSL>=25.0.0
+idna
+
+# HTML Processing
 beautifulsoup4
-brotlipy==0.7.0
-certifi==2020.12.5
-cffi
-chardet 
-cryptography 
-Django 
-idna 
-psycopg2 
-pycparser 
-pyOpenSSL
-PySocks 
-pytz 
-requests 
+soupsieve
+
+# Compatibility
 six
-soupsieve 
-sqlparse 
-urllib3 
-win-inet-pton
-wincertstore==0.2
+
+# Other (در صورت نیاز)
+# pycparser (معمولا به عنوان وابستگی cryptography نصب می‌شود)
+# PySocks (برای استفاده از پروکسی socks)
