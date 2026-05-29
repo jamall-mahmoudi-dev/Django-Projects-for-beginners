@@ -15,7 +15,7 @@ function App() {
     try {
       // Send POST request with text and settings (rate, volume, language)
       const response = await axios.post(
-        'http://localhost:8000/api/', // API endpoint for TTS
+        'http://127.0.0.1:8000/api/', // API endpoint for TTS
         { text, rate, volume, lang: language },
         { responseType: 'blob' } // Expecting binary data (audio) in response
       );

@@ -84,10 +84,8 @@ class EventReview(models.Model):
 
 
 class Ticket(models.Model):
-    event = models.ForeignKey(
-        Event, on_delete=models.CASCADE, related_name="tickets")
-    user = models.ForeignKey(
-        User, on_delete=models.CASCADE, related_name="tickets")
+    event = models.ForeignKey(Event, on_delete=models.CASCADE, related_name="tickets")
+    user = models.ForeignKey(User, on_delete=models.CASCADE, related_name="tickets")
     price = models.DecimalField(max_digits=8, decimal_places=2)
     purchase_date = models.DateTimeField(auto_now_add=True)
 
