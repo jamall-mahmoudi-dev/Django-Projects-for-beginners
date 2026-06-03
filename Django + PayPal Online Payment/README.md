@@ -1,23 +1,29 @@
-# Django PayPal Integration
 
-A Django application that seamlessly integrates PayPal payment processing, allowing users to make secure transactions. This project is ideal for developers looking to implement e-commerce solutions using Django.
+**یکپارچه سازی پی‌پال با جنگو**
 
-![Alt Text](https://coderspdf.com/wp-content/uploads/2024/10/image-2-1536x863.png)
+برنامه‌ای جنگویی که به‌طور یکپارچه پردازش پرداخت پی‌پال را ادغام می‌کند و به کاربران امکان می‌دهد تراکنش‌های امنی انجام دهند. این پروژه برای توسعه‌دهندگانی که به دنبال پیاده‌سازی راه‌حل‌های تجارت الکترونیک با استفاده از جنگو هستند، ایده‌ال است.
 
-## Requirements
+![متن جایگزین](https://coderspdf.com/wp-content/uploads/2024/10/image-2-1536x863.png)
 
-- Python 3.x
-- Django 3.x or higher
+## پیش‌نیازها
+
+- پایتون نسخه 3.x
+- جنگو نسخه 3.x یا بالاتر
+
 ```bash
-   pip install django
+pip install django
 ```
-- Django Paypal Package
+
+- پکیج پی‌پال مخصوص جنگو
 ```bash
 pip install django-paypal
 ```
-- Paypal SDK
+
+- SDK پی‌پال
 ```bash
 pip install paypalrestsdk
 ```
-## Paypal Developer Dashboard
-- [A PayPal Developer Account](https://developer.paypal.com/dashboard/)
+
+## داشبورد توسعه‌دهنده پی‌پال
+- [یک حساب توسعه‌دهنده پی‌پال](https://developer.paypal.com/dashboard/)
+

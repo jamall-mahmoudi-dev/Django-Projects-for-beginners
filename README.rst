@@ -1,78 +1,98 @@
-==============================================
-Beginner level django projects
-==============================================
-
-|Django| |PyVersion| 
 
 
-************
-Introduction
-************
+---
 
-``Django-Projects-for-beginners`` is a collaborative collection of beginner-friendly Django projects designed to help developers learn 
-the fundamentals of Django web development. Each project showcases essential concepts like models, views, templates, and forms, making it 
-an ideal starting point for those new to Django or web development in general.
+**پروژه‌های سطح مبتدی جنگو**
+**نسخه‌های پایتون جنگو**
 
-If you are a beginner, you can check out these projects and contribute your own work as well.
+**مقدمه**
+«پروژه‌های جنگو برای مبتدیان» مجموعه‌ای مشارکتی از پروژه‌های جنگوی مناسب برای مبتدیان است که به توسعه‌دهندگان کمک می کند اصول توسعه وب با جنگو را یاد بگیرند. هر پروژه مفاهیم ضروری مانند مدل‌ها، ویوها، تمپلیت‌ها و فرم‌ها را به نمایش می‌گذارد و آن را به نقطه شروعی ایده‌آل برای کسانی که تازه با جنگو یا توسعه وب به طور کلی آشنا شده‌اند تبدیل می‌کند.
 
+اگر مبتدی هستید، می‌توانید این پروژه‌ها را بررسی کنید و کارهای خودتان را نیز مشارکت دهید.
 
-************
-What to do ? 
-************
+**چه کاری باید انجام دهید؟**
+- یک پروژه پایه جنگو ایجاد کنید، مانند یک وبلاگ ساده، یک برنامه لیست کارها، یا یک سایت تجارت الکترونیک پایه.
+- پوشه پروژه را در این مخزن اضافه کنید.
+- فراموش نکنید که یک فایل requirements.txt در آن اضافه کنید.
+- از هیچ فریمورک دیگری به جز جنگو استفاده نکنید.
+- برای اطلاعات بیشتر درباره جنگو، مستندات رسمی را در آدرس https://docs.djangoproject.com/en/stable/ بررسی کنید.
 
-* Create a basic Django project, such as a simple blog, a to-do list app, or a basic e-commerce site.
-* Add the project folder in this repo.
-* Don't Forget to add a requirements.txt file in it.
-* Don't use any other framework rather than django.
+**چه زمانی از جنگو استفاده کنیم؟**
+- **نیاز به ساخت سریع یک برنامه وب دارید:** ابزارهای یکپارچه جنگو و پنل مدیریت خودکار، زمان توسعه را بسیار کاهش می‌دهند.
+- **برنامه شما نیاز به مقیاس‌پذیری دارد:** جنگو برای پروژه‌هایی که ممکن است بزرگ شوند و به مقیاس‌پذیری نیاز داشته باشند، بسیار مناسب است.
+- **امنیت مهم است:** ویژگی‌های امنیتی داخلی جنگو، آن را به انتخابی عالی برای برنامه‌هایی که نیاز به مدیریت داده‌های حساس دارند تبدیل می‌کند.
 
-* For more information on Django, check out the official documentation at https://docs.djangoproject.com/en/stable/.
-  
-*******************
-When to Use Django:
-*******************
+**مراحل مشارکت در مخزن:**
 
-* You need to build a web application quickly: Django’s bundled tools and the automatic admin interface save a lot of development time.
-* Your app needs to scale: Django is well-suited for projects that might grow large and require scalability.
-* Security is important: Django’s built-in security features make it a great choice for applications that need to handle sensitive data.
+1. روی دکمه «Fork» در بالای صفحه این مخزن کلیک کنید تا یک کپی از مخزن در حساب گیت‌هاب خود ایجاد کنید.
+2. مخزن فورک شده خود را روی سیستم محلی کلون کنید تا روی آن کار کنید.
+3. ترمینال را باز کنید و اجرا کنید:
+   ```
+   git clone https://github.com/jamall-mahmoudi-dev/Django-Projects-for-beginners
+   ```
+4. به دایرکتوری پروژه بروید:
+   ```
+   cd Django-Projects-for-beginners
+   ```
+5. قبل از انجام هر تغییری، یک شاخه جدید برای مشارکت خود ایجاد کنید. این کار کار شما را سازمان‌دهی کرده و از شاخه اصلی جدا نگه می‌دارد:
+   ```
+   git checkout -b my-new-branch
+   ```
+6. پروژه جنگوی خود را اضافه کنید یا تغییرات لازم را در مخزن اعمال کنید.
+7. اطمینان حاصل کنید که پروژه شما از ساختار پروژه جنگو پیروی می‌کند و شامل فایل requirements.txt با تمام وابستگی‌های لازم است.
+8. تغییرات خود را با استفاده از دستور زیر مرحله‌بندی کنید:
+   ```
+   git add .
+   ```
+9. تغییرات خود را commit کنید:
+   ```
+   git commit -m "پیام مرتبط"
+   ```
+10. تغییرات خود را به شاخه جدید در مخزن فورک شده خود push کنید:
+    ```
+    git push origin my-new-branch
+    ```
+11. یک درخواست Pull ایجاد کنید:
+    - به مخزن فورک شده خود در گیت‌هاب بروید، دکمه «Compare & pull request» را مشاهده خواهید کرد. برای ارسال تغییرات خود روی آن کلیک کنید.
+    - توضیح دقیقی از آنچه اضافه یا تغییر داده‌اید بنویسید. حتماً هدف مشارکت و هر جزئیات مرتبط درباره پروژه را ذکر کنید.
 
+**درباره**
+مخزن پروژه متن‌باز جنگو برای مبتدیان. @Hacktoberfest @django
 
-************************************
-Steps to Contribute in repository:
-************************************
+anshulcodes.site/Django-Projects-for-beginners/
 
-* Click the “Fork” button at the top of this repository page to create your own copy of the repository in your GitHub account.
-* Clone your forked repository to your local machine to work on it.
-* Open a terminal and run:
-``git clone https://github.com/jamall-mahmoudi-dev/Django-Projects-for-beginners``
+**منابع**
+- Readme
+- مجوز: مجوز MIT
+- مشارکت: مشارکت
+- فعالیت
+- ستاره‌ها: ۰ ستاره
+- رصدکنندگان: ۰ رصد
+- فورک‌ها: ۰ فورک
 
-* Navigate to project directory.
-``cd Django-Projects-for-beginners``
+**نسخه‌ها**
+هیچ نسخه‌ای منتشر نشده است
+ایجاد نسخه جدید
 
-* Before making any changes, create a new branch for your contribution. This keeps your work organized and separate from the main branch:
-``git checkout -b my-new-branch``
+**پکیج‌ها**
+هیچ پکیجی منتشر نشده است
+انتشار اولین پکیج شما
 
-* Add your Django project or make the necessary changes to the repository.
-* Ensure your project follows the Django project structure and includes a requirements.txt file with all necessary dependencies.
+**مشارکت‌کنندگان**
+هیچ مشارکت‌کننده‌ای
 
-* Stage your changes using the following command:
-``git add .``
+**زبان‌ها**
+- JavaScript: ۷۹.۵%
+- CSS: ۱۰.۵%
+- HTML: ۵.۹%
+- Python: ۳.۲%
+- Jupyter Notebook: ۰.۸%
+- Less: ۰.۱%
 
-* Commit your changes.
-``git commit -m "Relevant message"``
+**گردش‌کارهای پیشنهادی (بر اساس پشته فنی شما)**
+- انتشار پکیج Node.js به GitHub Packages
+- تولیدکننده عمومی SLSA
+- Node.js
 
-* Push your changes to the new branch in your forked repository:
-``git push origin my-new-branch``
-
-* Create a Pull Request (PR):
-* Go to your forked repository on GitHub, and you’ll see a “Compare & pull request” button. Click on it to submit your changes.
-* Write a detailed description of what you’ve added or changed. Be sure to include the purpose of the contribution and any relevant details about the project.
-
-.. |PyVersion| image:: https://img.shields.io/pypi/pyversions/djangocms-installer.svg?style=flat-square
-    :target: https://pypi.python.org/pypi/djangocms-installer
-    :alt: Python versions
-
-
-.. |Django| image:: https://img.shields.io/badge/Python-Django-green
-   :target: https://www.djangoproject.com/
-    :alt: Django
+---
 
