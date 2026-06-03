@@ -43,7 +43,7 @@ Steps to Contribute in repository:
 * Click the “Fork” button at the top of this repository page to create your own copy of the repository in your GitHub account.
 * Clone your forked repository to your local machine to work on it.
 * Open a terminal and run:
-``git clone https://github.com/YOUR-USERNAME/Django-Projects-for-beginners.git``
+``git clone https://github.com/jamall-mahmoudi-dev/Django-Projects-for-beginners``
 
 * Navigate to project directory.
 ``cd Django-Projects-for-beginners``

@@ -8,4 +8,4 @@ class inputform(forms.ModelForm):
 
     class Meta:
         model = Mail  #
-        fields = ['url']
+        fields =  '__all__' #['url']
